@@ -16,6 +16,7 @@ header {
   border-bottom: 1px solid seashell;
   width: 100%;
   background-color: black;
+  z-index: 1;
 }
 
 header img {
@@ -44,10 +45,18 @@ main {
   width: 1200px;
   padding-top: 69px;
   margin: auto;
+  opacity: 0.9;
 }
 
 #mission {
   height: 700px;
   padding-top: 70px;
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.content {
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  width: 100%;
 }
