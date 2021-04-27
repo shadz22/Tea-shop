@@ -92,5 +92,21 @@ main {
 .item img {
   width: 100%;
   margin-bottom: 10px;
-  
+}
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  text-align: center;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 15px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
 }
